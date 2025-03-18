@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangesh Dangi - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                        url('https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?w=1920&auto=format&fit=crop') center/cover;
+            color: white;
+        }
+        
+        .hero-content h1,
+        .hero-content p {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-text">MD</span>
+            <span class="logo-dot"></span>
+        </a>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+                <li><a href="#services"><i class="fas fa-cogs"></i>Services</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i>Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i>Skills</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i>Experience</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+            <div class="nav-indicator"></div>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" aria-label="Toggle menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="hero-bg-elements">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-intro">
+                <span class="greeting-tag">👋 Hello, I'm</span>
+                <h1 class="hero-title">Mangesh Dangi</h1>
+                <div class="hero-subtitle">
+                    <span class="profession">I'm a</span>
+                    <div class="typing-wrapper">
+                        <span class="typed-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+                </div>
+                <p class="hero-description">Turning complex problems into elegant solutions through code and creativity</p>
+            </div>
+            
+            <div class="hero-cta">
+                <a href="#projects" class="cta-button primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="cta-button secondary">
+                    <span>Let's Talk</span>
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
+            
+            <div class="hero-scroll">
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div class="arrow"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-wrapper">
+            <div class="about-container modern">
+                <div class="about-image-container">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1535551951406-a19828b0a76b?w=800&auto=format&fit=crop" alt="Mangesh Dangi">
+                        <div class="image-frame"></div>
+                    </div>
+                    <div class="floating-card experience">
+                        <span class="card-icon">⚡</span>
+                        <span class="card-text">2+ Years of Experience</span>
+                    </div>
+                    <div class="floating-card projects">
+                        <span class="card-icon">🚀</span>
+                        <span class="card-text">15+ Projects</span>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="section-header">
+                        <div class="header-line"></div>
+                        <h2>About Me</h2>
+                    </div>
+                    
+                    <div class="about-text-container">
+                        <div class="greeting-wrapper">
+                            <span class="greeting">Hey there, I'm Mangesh!</span>
+                            <h3 class="title-fade">Data Analyst & Web Developer</h3>
+                        </div>
+                        
+                        <p class="about-tagline">I turn data into insights, ideas into websites, and technology into impact.</p>
+                        
+                        <div class="about-description">
+                            <p class="highlight-text">🔍 By day, I'm a Data Analyst & Web Developer, crafting seamless digital experiences and uncovering patterns hidden in numbers.</p>
+                            <p class="highlight-text">🌙 By night, I tinker with IoT innovations, pushing the boundaries of smart technology.</p>
+                            <p class="highlight-text">💡 My passion? Solving real-world problems with code—whether it's building interactive web apps or designing smart systems.</p>
+                        </div>
+                    </div>
+
+                    <div class="skills-highlight">
+                        <h4>Core Competencies</h4>
+                        <div class="competencies">
+                            <div class="competency-card">
+                                <i class="fas fa-code"></i>
+                                <span>Web Development</span>
+                            </div>
+                            <div class="competency-card">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Data Analysis</span>
+                            </div>
+                            <div class="competency-card">
+                                <i class="fas fa-microchip"></i>
+                                <span>IoT Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="services-wrapper">
+            <div class="section-header centered">
+                <div class="header-line"></div>
+                <h2>Services</h2>
+                <div class="header-line"></div>
+            </div>
+            <p class="section-subtitle">Professional web development solutions for your needs</p>
+
+            <div class="services-grid">
+                <div class="service-card" data-service-id="basic-website">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Basic Static Website</h3>
+                    <p>Ideal for portfolios, landing pages, or simple informational sites.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> SEO Optimized</li>
+                        <li><i class="fas fa-check"></i> Contact Form</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₹5,000 – ₹15,000</span>
+                    </div>
+                    <button class="view-details-btn">
+                        <span>View Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card" data-service-id="business-website">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Small Business Website</h3>
+                    <p>Suitable for businesses requiring 5-10 pages with basic features.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Multiple Pages</li>
+                        <li><i class="fas fa-check"></i> Content Management</li>
+                        <li><i class="fas fa-check"></i> Image Gallery</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₹15,000 – ₹30,000</span>
+                    </div>
+                    <button class="view-details-btn">
+                        <span>View Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card" data-service-id="ecommerce-website">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce Website</h3>
+                    <p>Complete online store with product management and payment integration.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Product Management</li>
+                        <li><i class="fas fa-check"></i> Payment Gateway</li>
+                        <li><i class="fas fa-check"></i> Order Tracking</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₹30,000 – ₹70,000+</span>
+                    </div>
+                    <button class="view-details-btn">
+                        <span>View Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card" data-service-id="custom-webapp">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Custom Web Application</h3>
+                    <p>Complex features like dashboards, data visualization or something you want.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Features</li>
+                        <li><i class="fas fa-check"></i> Data Integration</li>
+                        <li><i class="fas fa-check"></i> API Development</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₹50,000 – ₹1,50,000+</span>
+                    </div>
+                    <button class="view-details-btn">
+                        <span>View Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="service-card" data-service-id="ai-website">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Powered Website</h3>
+                    <p>Smart websites with integrated AI features for enhanced user experience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> AI Chatbot Integration</li>
+                        <li><i class="fas fa-check"></i> Smart Content Recommendations</li>
+                        <li><i class="fas fa-check"></i> Voice Search & Commands</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₹80,000 – ₹2,00,000+</span>
+                    </div>
+                    <button class="view-details-btn">
+                        <span>View Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modal -->
+    <div class="service-modal" id="serviceModal">
+        <div class="modal-content">
+            <button class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <div class="service-details">
+                    <!-- Content will be dynamically populated -->
+                </div>
+                <form class="order-form" id="orderForm">
+                    <h3>Order this Service</h3>
+                    <div class="form-group">
+                        <input type="text" id="orderName" name="name" required>
+                        <label for="orderName">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="orderEmail" name="email" required>
+                        <label for="orderEmail">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="orderRequirements" name="requirements" required></textarea>
+                        <label for="orderRequirements">Project Requirements</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="orderBudget" name="budget" required>
+                        <label for="orderBudget">Your Budget (₹)</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Place Order</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects-wrapper">
+            <div class="section-header centered">
+                <div class="header-line"></div>
+                <h2>Featured Projects</h2>
+                <div class="header-line"></div>
+            </div>
+            <p class="section-subtitle">Transforming ideas into reality through code and innovation</p>
+            
+            <div class="projects-container">
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Dev</button>
+                    <button class="filter-btn" data-filter="iot">IoT</button>
+                    <button class="filter-btn" data-filter="data">Data</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Projects will be populated via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skills-wrapper">
+            <div class="section-header centered">
+                <div class="header-line"></div>
+                <h2>Technical Skills</h2>
+                <div class="header-line"></div>
+            </div>
+            <p class="section-subtitle">Crafting digital experiences with cutting-edge technologies</p>
+
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <div class="skills-category">
+                        <h3>Frontend Development</h3>
+                        <div class="skills-list frontend">
+                            <!-- Skills populated via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Backend Development</h3>
+                        <div class="skills-list backend">
+                            <!-- Skills populated via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Data Analysis</h3>
+                        <div class="skills-list data">
+                            <!-- Skills populated via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>IoT & Hardware</h3>
+                        <div class="skills-list iot">
+                            <!-- Skills populated via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Artificial Intelligence</h3>
+                        <div class="skills-list ai">
+                            <!-- Skills populated via JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="experience-wrapper">
+            <div class="section-header centered">
+                <div class="header-line"></div>
+                <h2>Professional Journey</h2>
+                <div class="header-line"></div>
+            </div>
+            <p class="section-subtitle">Building experiences that shape tomorrow</p>
+
+            <div class="timeline-wrapper">
+                <div class="timeline">
+                    <div class="timeline-progress"></div>
+                    <!-- Experience items populated via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-wrapper">
+            <div class="section-header centered">
+                <div class="header-line"></div>
+                <h2>Let's Connect</h2>
+                <div class="header-line"></div>
+            </div>
+            <p class="section-subtitle">Have a project in mind? Let's bring your ideas to life!</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Mumbai, Maharashtra, India</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:contact@example.com">mangeshdangi786@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+1234567890">+91 9529654233</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/MangeshDangi" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mangesh-dangi-174bb31a0/" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/MangeshDangi1" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" id="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mangesh Dangi. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
+</html>
