@@ -793,6 +793,7 @@ function initThemeToggle() {
         updateThemeIcon(newTheme);
         
         // Add animation class
+
         themeToggle.classList.add('rotate');
         setTimeout(() => themeToggle.classList.remove('rotate'), 300);
     });
