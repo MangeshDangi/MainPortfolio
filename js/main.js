@@ -740,7 +740,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const serviceId = document.querySelector('.service-details').dataset.serviceId;
                 const serviceName = document.querySelector('.service-details h2').textContent;
                 
-                const response = await fetch('http://localhost:3000/api/orders/submit', {
+                const response = await fetch("https://mainportfolio-bjtu.onrender.com/api/orders/submit", {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
