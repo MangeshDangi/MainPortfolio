@@ -205,7 +205,7 @@ contactForm.addEventListener('submit', async (e) => {
         
         // Test server connection without credentials
         try {
-            const testResponse = await fetch('http://localhost:3000/api/test');
+            const testResponse = await fetch('https://mainportfolio-bjtu.onrender.com/api/test');
             if (!testResponse.ok) {
                 throw new Error('Server not responding');
             }
@@ -214,7 +214,7 @@ contactForm.addEventListener('submit', async (e) => {
             throw new Error('Cannot connect to server. Please make sure the server is running.');
         }
         
-        const response = await fetch('http://localhost:3000/api/contact/submit', {
+        const response = await fetch('https://mainportfolio-bjtu.onrender.com/api/contact/submit', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
